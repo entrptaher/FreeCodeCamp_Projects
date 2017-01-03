@@ -1,0 +1,6 @@
+/* 
+it have to be one page
+have buttons to various social media
+thumbnails of projects
+navigation menu
+*/

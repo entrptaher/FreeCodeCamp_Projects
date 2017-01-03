@@ -1,0 +1,24 @@
+{
+	"name": "fcc-reqheader-api",
+	"version": "0.0.1",
+	"description": "Request Header API?",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"express": "^4.14.0",
+		"ua-parser-js": "^0.7.12"
+	},
+	"engines": {
+		"node": "6.9.1"
+	},
+	"repository": {
+		"url": "https://github.com/entrptaher/fcc-whoami-api"
+	},
+	"keywords": [
+		"node",
+		"gomix",
+		"express"
+	]
+}
