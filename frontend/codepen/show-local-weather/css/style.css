@@ -1,0 +1,22 @@
+#test {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 300%;
+  float: none;
+}
+
+#degree::before {
+  content: " \00b0";
+}
+
+#degree::after {
+  content: " ";
+}
+
+#icon {
+  font-size: 300%;
+  float: none;
+  text-align: center;
+  display: inline;
+}
