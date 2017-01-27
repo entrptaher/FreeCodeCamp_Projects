@@ -1,0 +1,20 @@
+var TextArea = React.createClass({
+  getInitialState: function() {
+    return {
+      typed: ""
+    };
+  },
+  onChange: function(event) {
+    document.getElementById("output").innerHTML = marked(event.target.value);
+  },
+  render: function() {
+    return <div>
+      <textarea onChange={this.onChange.bind(this)}></textarea>
+      </div>
+  }
+})
+React.render(<TextArea/>, document.querySelector('#source'));
+
+/*
+Resources: https://www.peterbe.com/plog/onchange-in-reactjs
+*/

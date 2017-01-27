@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Markdown Previewer</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div class="container">
+  <div class="row">
+    <h1 class="text-center">Markdown Previewer</h1>
+    <hr>
+    <div id="sourcex" class="col-md-6 col-sm-6">
+      <h3>Enter Your Markdown Below:</h3>
+      <div id="source"></div>
+    </div>
+    <div class="col-md-6 col-sm-6">
+      <h3>The Formatted Text:</h3>
+      <div id="output"></div>
+      <div id="app">
+      </div>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/react/0.13.0/react.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
